@@ -16,11 +16,16 @@ Tags: แสดงหมวดหมู่
 */}
 
 import "./App.css";
+import SearchBar from "./components/SearchBar";
+import TripList from "./components/TripList";
+import TitleBar from "./components/TitleBar";
 
 function App() {
   return (
   <div className="App">
-    
+    <TitleBar />
+    {/* <SearchBar /> */}
+    <TripList />
   </div>
   )
 }
